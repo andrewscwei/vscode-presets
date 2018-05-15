@@ -1,0 +1,25 @@
+# vscode-presets
+
+Custom VSCode presets—simply run the install script and you're good to go.
+
+## Usage
+
+### Installing Presets
+
+Install via Wget:
+
+```sh
+$ wget -qO- https://raw.githubusercontent.com/andrewscwei/vscode-presets/master/install.sh | bash
+```
+
+### Exporting Current VSCode presets
+
+```sh
+$ git clone https://github.com/andrewscwei/vscode-presets
+$ cd vscode-presets
+$ ./export.sh
+```
+
+## License
+
+This software is released under the [MIT License](http://opensource.org/licenses/MIT).
