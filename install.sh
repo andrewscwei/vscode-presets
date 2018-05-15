@@ -48,7 +48,7 @@ function install_settings() {
 }
 
 function install_extensions() {
-  cat $SRC/Files/extensions.list | xargs -L 1 code --install-extension
+  curl -s $SRC/Files/extensions.list | xargs -L 1 code --install-extension
 }
 
 # Main process.
