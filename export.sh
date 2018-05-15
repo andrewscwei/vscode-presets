@@ -19,3 +19,6 @@ cp -rf "$SRC/settings.json" "./Files/settings.json"
 
 echo -e "Exporting ${COLOR_CYAN}keybindings.json${COLOR_RESET}..."
 cp -rf "$SRC/keybindings.json" "./Files/keybindings.json"
+
+echo -e "Exporting extensions to ${COLOR_CYAN}extensions.list${COLOR_RESET}..."
+code --list-extensions > Files/extensions.list

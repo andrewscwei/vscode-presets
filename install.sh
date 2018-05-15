@@ -31,22 +31,24 @@ function install_dir() {
 }
 
 # Installs presets from directory.
-function install_from_dir() {
-  if [ -z "$1" ]; then
-    echo -e "${COLOR_RED}You must provide a directory name${COLOR_RESET}"
-  fi
+function install_settings() {
+  echo -e "Installing settings.json..."
 
-  for file in "./$1"/*; do
-    local f=${file##*/}
-    local i="$SRC/$1/$f"
-    local o="$(install_dir)/$f"
+  wget -q "$SRC/Files/settings.json" -O "$(install_dir)/settings.json" || {
+    echo -e "${COLOR_RED}Failed to download from ${COLOR_CYAN}$SRC/Files/settings.json${COLOR_RESET}"
+    return 1
+  }
 
-    echo -e "Installing $f..."
-    wget -q "$i" -O "$o" || {
-      echo -e "${COLOR_RED}Failed to download from ${COLOR_CYAN}$i${COLOR_RESET}"
-      return 1
-    }
-  done
+  echo -e "Installing keybindings.json..."
+
+  wget -q "$SRC/Files/keybindings.json" -O "$(install_dir)/keybindings.json" || {
+    echo -e "${COLOR_RED}Failed to download from ${COLOR_CYAN}$SRC/Files/keybindings.json${COLOR_RESET}"
+    return 1
+  }
+}
+
+function install_extensions() {
+  cat $SRC/Files/extensions.list | xargs -L 1 code --install-extension
 }
 
 # Main process.
@@ -61,7 +63,8 @@ function main() {
     exit 1
   fi
 
-  install_from_dir "Files"
+  install_settings
+  install_extensions
 
   echo -e "${COLOR_GREEN}Installation complete, restart VSCode for changes to take effect"
 }
