@@ -6,10 +6,10 @@ Custom VSCode presets (macOS only)—simply run the install script and you're go
 
 ### Installing Presets
 
-Install via Wget:
+Install via cURL:
 
 ```sh
-$ wget -qO- https://raw.githubusercontent.com/andrewscwei/vscode-presets/master/install.sh | bash
+$ curl -o- https://raw.githubusercontent.com/andrewscwei/vscode-presets/master/install.sh | bash
 ```
 
 ### Exporting Current VSCode presets

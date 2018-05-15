@@ -34,27 +34,32 @@ function install_dir() {
 function install_settings() {
   echo -e "Installing settings.json..."
 
-  wget -q "$SRC/Files/settings.json" -O "$(install_dir)/settings.json" || {
+  curl --compressed -q -s "$SRC/Files/settings.json" -o "$(install_dir)/settings.json" || {
     echo -e "${COLOR_RED}Failed to download from ${COLOR_CYAN}$SRC/Files/settings.json${COLOR_RESET}"
     return 1
   }
 
   echo -e "Installing keybindings.json..."
 
-  wget -q "$SRC/Files/keybindings.json" -O "$(install_dir)/keybindings.json" || {
+  curl --compressed -q -s "$SRC/Files/keybindings.json" -o "$(install_dir)/keybindings.json" || {
     echo -e "${COLOR_RED}Failed to download from ${COLOR_CYAN}$SRC/Files/keybindings.json${COLOR_RESET}"
     return 1
   }
 }
 
 function install_extensions() {
-  curl -s $SRC/Files/extensions.list | xargs -L 1 code --install-extension
+  curl --compressed -q -s $SRC/Files/extensions.list | xargs -L 1 code --install-extension
 }
 
 # Main process.
 function main() {
-  if ! command_exists wget; then
-    echo -e "${COLOR_RED}You need ${COLOR_CYAN}wget${COLOR_RED} to run the install script"
+  if ! command_exists curl; then
+    echo -e "${COLOR_RED}You need ${COLOR_CYAN}curl${COLOR_RED} to run the install script"
+    exit 1
+  fi
+
+  if ! command_exists code; then
+    echo -e "${COLOR_RED}You need the ${COLOR_CYAN}code${COLOR_RED} command to run the install script: open ${COLOR_CYAN}VSCode${COLOR_RESET} > ${COLOR_CYAN}View${COLOR_RESET} > ${COLOR_CYAN}Command Palette...${COLOR_RESET} > ${COLOR_CYAN}Shell Command: Install 'code' command in PATH${COLOR_RESET}"
     exit 1
   fi
 
