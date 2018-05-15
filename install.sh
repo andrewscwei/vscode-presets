@@ -27,7 +27,7 @@ function command_exists() {
 # Gets the default install path. This can be overridden when calling the
 # download script by passing the INSTALL_PATH variable.
 function install_dir() {
-  printf %s "${INSTALL_PATH:-"$HOME/Library/Application Support/Code/User"}"
+  printf %s "${INSTALL_PATH:-"$HOME/Library/Application\ Support/Code/User"}"
 }
 
 # Installs presets from directory.
@@ -36,14 +36,10 @@ function install_from_dir() {
     echo -e "${COLOR_RED}You must provide a directory name${COLOR_RESET}"
   fi
 
-  if [ ! -d "$(install_dir)/$1" ]; then
-    mkdir $(install_dir)/$1
-  fi
-
   for file in "./$1"/*; do
     local f=${file##*/}
     local i="$SRC/$1/$f"
-    local o="$(install_dir)/$1/$f"
+    local o="$(install_dir)/$f"
 
     echo -e "Installing $f..."
     wget -q "$i" -O "$o" || {

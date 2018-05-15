@@ -1,6 +1,6 @@
 # vscode-presets
 
-Custom VSCode presets—simply run the install script and you're good to go.
+Custom VSCode presets (macOS only)—simply run the install script and you're good to go.
 
 ## Usage
 
