@@ -2,11 +2,14 @@ DotJoshJohnson.xml
 EditorConfig.EditorConfig
 Equinusocio.vsc-material-theme
 PeterJausovec.vscode-docker
+Zignd.html-css-class-completion
+christian-kohler.npm-intellisense
 codezombiech.gitignore
 dbaeumer.vscode-eslint
 donjayamanne.githistory
 eamodio.gitlens
 eg2.tslint
+eg2.vscode-npm-script
 formulahendry.auto-close-tag
 formulahendry.code-runner
 killalau.vscode-liquid-snippets
@@ -21,7 +24,9 @@ octref.vetur
 rebornix.Ruby
 robertohuertasm.vscode-icons
 robinbentley.sass-indented
+shanoor.vscode-nginx
 shinnn.stylelint
 vsciot-vscode.vscode-arduino
 vsmobile.vscode-react-native
+wholroyd.jinja
 yzhang.markdown-all-in-one
