@@ -32,5 +32,6 @@
     "*.env.*": "dotenv",
     "dockerfile.*": "dockerfile",
     ".stylelintrc": "json"
-  }
+  },
+  "gitlens.historyExplorer.enabled": true
 }

@@ -9,6 +9,7 @@ eamodio.gitlens
 eg2.tslint
 formulahendry.auto-close-tag
 formulahendry.code-runner
+killalau.vscode-liquid-snippets
 mauve.terraform
 mikestead.dotenv
 ms-python.python
@@ -16,6 +17,7 @@ ms-vscode.cpptools
 ms-vscode.Go
 msjsdiag.debugger-for-chrome
 neilding.language-liquid
+octref.vetur
 rebornix.Ruby
 robertohuertasm.vscode-icons
 robinbentley.sass-indented
