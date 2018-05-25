@@ -31,7 +31,14 @@
   "files.associations": {
     "*.env.*": "dotenv",
     "dockerfile.*": "dockerfile",
-    ".stylelintrc": "json"
+    ".stylelintrc": "json",
+    ".tslintrc": "json"
   },
-  "gitlens.historyExplorer.enabled": true
+  "gitlens.historyExplorer.enabled": true,
+  "stylelint.config": {
+    "typescript.validate": false,
+    "typescriptreact.validate": false,
+    "javascript.validate": false,
+    "javascriptreact.validate": false
+  }
 }

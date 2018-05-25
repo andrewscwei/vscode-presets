@@ -10,8 +10,8 @@ donjayamanne.githistory
 eamodio.gitlens
 eg2.tslint
 eg2.vscode-npm-script
-formulahendry.auto-close-tag
 formulahendry.code-runner
+jpoissonnier.vscode-styled-components
 killalau.vscode-liquid-snippets
 mauve.terraform
 mikestead.dotenv
@@ -22,10 +22,12 @@ msjsdiag.debugger-for-chrome
 neilding.language-liquid
 octref.vetur
 rebornix.Ruby
+ricard.postcss
 robertohuertasm.vscode-icons
 robinbentley.sass-indented
 shanoor.vscode-nginx
 shinnn.stylelint
+steoates.autoimport
 vsciot-vscode.vscode-arduino
 vsmobile.vscode-react-native
 wholroyd.jinja
