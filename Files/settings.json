@@ -42,5 +42,10 @@
     "javascriptreact.validate": false
   },
   "javascript.implicitProjectConfig.experimentalDecorators": true,
-  "explorer.confirmDragAndDrop": false
+  "explorer.confirmDragAndDrop": false,
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/bower_components": true,
+    "yarn.lock": true,
+  },
 }
