@@ -40,5 +40,7 @@
     "typescriptreact.validate": false,
     "javascript.validate": false,
     "javascriptreact.validate": false
-  }
+  },
+  "javascript.implicitProjectConfig.experimentalDecorators": true,
+  "explorer.confirmDragAndDrop": false
 }

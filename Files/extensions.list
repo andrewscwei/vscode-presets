@@ -2,7 +2,6 @@ DotJoshJohnson.xml
 EditorConfig.EditorConfig
 Equinusocio.vsc-material-theme
 PeterJausovec.vscode-docker
-Zignd.html-css-class-completion
 christian-kohler.npm-intellisense
 codezombiech.gitignore
 dbaeumer.vscode-eslint
@@ -27,7 +26,6 @@ robertohuertasm.vscode-icons
 robinbentley.sass-indented
 shanoor.vscode-nginx
 shinnn.stylelint
-steoates.autoimport
 vsciot-vscode.vscode-arduino
 vsmobile.vscode-react-native
 wholroyd.jinja
