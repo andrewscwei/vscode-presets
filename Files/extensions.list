@@ -1,15 +1,15 @@
 CoenraadS.bracket-pair-colorizer
-DotJoshJohnson.xml
 EditorConfig.EditorConfig
-Equinusocio.vsc-material-theme
 PeterJausovec.vscode-docker
 christian-kohler.npm-intellisense
 codezombiech.gitignore
 dbaeumer.vscode-eslint
 donjayamanne.githistory
+DotJoshJohnson.xml
 eamodio.gitlens
 eg2.tslint
 eg2.vscode-npm-script
+Equinusocio.vsc-material-theme
 formulahendry.code-runner
 jpoissonnier.vscode-styled-components
 killalau.vscode-liquid-snippets
@@ -26,7 +26,6 @@ ricard.postcss
 robertohuertasm.vscode-icons
 robinbentley.sass-indented
 shanoor.vscode-nginx
-shinnn.stylelint
 vsciot-vscode.vscode-arduino
 vsmobile.vscode-react-native
 wholroyd.jinja

@@ -21,6 +21,7 @@
     "**/.git": true,
     "**/.svn": true,
     "**/.hg": true,
+    "**/.cache": true,
     "**/CVS": true,
     "**/.DS_Store": true,
     "**/node_modules/": true,
@@ -48,4 +49,6 @@
     "**/bower_components": true,
     "yarn.lock": true,
   },
+  "workbench.editor.showTabs": true,
+  "gitlens.codeLens.enabled": false,
 }
