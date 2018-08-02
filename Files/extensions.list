@@ -1,8 +1,7 @@
-CoenraadS.bracket-pair-colorizer
 EditorConfig.EditorConfig
-PeterJausovec.vscode-docker
 christian-kohler.npm-intellisense
 codezombiech.gitignore
+CoenraadS.bracket-pair-colorizer
 dbaeumer.vscode-eslint
 donjayamanne.githistory
 DotJoshJohnson.xml
@@ -12,15 +11,16 @@ eg2.vscode-npm-script
 Equinusocio.vsc-material-theme
 formulahendry.code-runner
 jpoissonnier.vscode-styled-components
-killalau.vscode-liquid-snippets
 mauve.terraform
 mikestead.dotenv
+mrmlnc.vscode-scss
 ms-python.python
 ms-vscode.cpptools
 ms-vscode.Go
 msjsdiag.debugger-for-chrome
 neilding.language-liquid
 octref.vetur
+PeterJausovec.vscode-docker
 rebornix.Ruby
 ricard.postcss
 robertohuertasm.vscode-icons
