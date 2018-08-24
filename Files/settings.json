@@ -2,8 +2,8 @@
   "gitlens.advanced.messages": {
     "suppressShowKeyBindingsNotice": true
   },
-  "workbench.iconTheme": "vscode-icons",
-  "workbench.colorTheme": "Material Theme Darker",
+  "workbench.iconTheme": "eq-material-theme-icons-ocean",
+  "workbench.colorTheme": "Material Theme Ocean",
   "workbench.startupEditor": "newUntitledFile",
   "git.enableSmartCommit": true,
   "git.confirmSync": false,
@@ -52,5 +52,6 @@
   "workbench.editor.showTabs": true,
   "gitlens.codeLens.enabled": false,
   "window.zoomLevel": 0,
-  "breadcrumbs.enabled": true
+  "breadcrumbs.enabled": true,
+  "materialTheme.fixIconsRunning": false
 }
