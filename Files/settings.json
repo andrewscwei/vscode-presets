@@ -52,4 +52,5 @@
   "workbench.editor.showTabs": true,
   "gitlens.codeLens.enabled": false,
   "window.zoomLevel": 0,
+  "breadcrumbs.enabled": true
 }
