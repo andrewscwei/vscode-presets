@@ -2,8 +2,7 @@
   "gitlens.advanced.messages": {
     "suppressShowKeyBindingsNotice": true
   },
-  "workbench.iconTheme": "eq-material-theme-icons-ocean",
-  "workbench.colorTheme": "Material Theme Ocean",
+  "workbench.iconTheme": "vs-minimal",
   "workbench.startupEditor": "newUntitledFile",
   "git.enableSmartCommit": true,
   "git.confirmSync": false,
@@ -18,22 +17,25 @@
   "explorer.confirmDelete": false,
   "editor.tabSize": 2,
   "files.exclude": {
-    "**/.git": true,
-    "**/.svn": true,
-    "**/.hg": true,
     "**/.cache": true,
-    "**/CVS": true,
     "**/.DS_Store": true,
-    "**/node_modules/": true,
+    "**/.git": true,
+    "**/.hg": true,
+    "**/.svn": true,
+    "**/build/": true,
+    "**/CVS": true,
     "**/dist/": true,
+    "**/node_modules/": true,
     "**/public/": true,
-    "**/build/": true
+    "**/www/": true,
+    "package-lock.json": true
   },
   "files.associations": {
     "*.env.*": "dotenv",
     "dockerfile.*": "dockerfile",
     ".stylelintrc": "json",
-    ".tslintrc": "json"
+    ".tslintrc": "json",
+    "*.geojson": "json"
   },
   "gitlens.historyExplorer.enabled": true,
   "stylelint.config": {
@@ -45,13 +47,33 @@
   "javascript.implicitProjectConfig.experimentalDecorators": true,
   "explorer.confirmDragAndDrop": false,
   "search.exclude": {
-    "**/node_modules": true,
     "**/bower_components": true,
-    "yarn.lock": true,
+    "**/node_modules": true,
+    "package-lock.json": true,
+    "yarn.lock": true
   },
   "workbench.editor.showTabs": true,
   "gitlens.codeLens.enabled": false,
   "window.zoomLevel": 0,
   "breadcrumbs.enabled": true,
-  "materialTheme.fixIconsRunning": false
+  "javascript.preferences.quoteStyle": "single",
+  "typescript.preferences.quoteStyle": "single",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "breadcrumbs.filePath": "on",
+  "breadcrumbs.symbolPath": "on",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "terraform.codelens.enabled": false,
+  "terraform.indexing": {
+    "enabled": false,
+    "liveIndexing": true,
+    "delay": 500,
+    "exclude": [
+      ".terraform/**/*",
+      "**/.terraform/**/*"
+    ]
+  },
+  "editor.minimap.enabled": false,
+  "workbench.colorTheme": "Material Theme Darker",
+  "files.useExperimentalFileWatcher": true,
+  "autoimport.filesToScan": "**/*.{js,jsx,ts,tsx}"
 }
