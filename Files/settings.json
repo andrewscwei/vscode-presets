@@ -18,10 +18,12 @@
   "editor.tabSize": 2,
   "files.exclude": {
     "**/.cache": true,
+    "**/.data": true,
     "**/.DS_Store": true,
     "**/.git": true,
     "**/.hg": true,
     "**/.svn": true,
+    "**/.tmp": true,
     "**/build/": true,
     "**/CVS": true,
     "**/dist/": true,
@@ -75,5 +77,6 @@
   "editor.minimap.enabled": false,
   "workbench.colorTheme": "Material Theme Darker",
   "files.useExperimentalFileWatcher": true,
-  "autoimport.filesToScan": "**/*.{js,jsx,ts,tsx}"
+  "autoimport.filesToScan": "**/*.{js,jsx,ts,tsx}",
+  "workbench.statusBar.feedback.visible": false
 }
