@@ -37,14 +37,8 @@
     "dockerfile.*": "dockerfile",
     ".stylelintrc": "json",
     ".tslintrc": "json",
-    "*.geojson": "json"
-  },
-  "gitlens.historyExplorer.enabled": true,
-  "stylelint.config": {
-    "typescript.validate": false,
-    "typescriptreact.validate": false,
-    "javascript.validate": false,
-    "javascriptreact.validate": false
+    "*.geojson": "json",
+    "*.strings": "swift"
   },
   "javascript.implicitProjectConfig.experimentalDecorators": true,
   "explorer.confirmDragAndDrop": false,
@@ -74,9 +68,42 @@
       "**/.terraform/**/*"
     ]
   },
-  "editor.minimap.enabled": false,
-  "workbench.colorTheme": "Material Theme Darker",
+  "editor.minimap.enabled": true,
   "files.useExperimentalFileWatcher": true,
-  "autoimport.filesToScan": "**/*.{js,jsx,ts,tsx}",
-  "workbench.statusBar.feedback.visible": false
+  "workbench.statusBar.feedback.visible": false,
+  "gitlens.views.fileHistory.enabled": true,
+  "gitlens.views.lineHistory.enabled": true,
+  "git.autofetch": true,
+  "cSpell.userWords": [
+    "ansible",
+    "ansible's",
+    "backend",
+    "datacenter",
+    "davie",
+    "figma",
+    "gravatar",
+    "keychain",
+    "kubernetes",
+    "mixins",
+    "neighbourhood",
+    "photoshop",
+    "predefine",
+    "prismic",
+    "repo",
+    "repos",
+    "roboto",
+    "stackdriver",
+    "submodule",
+    "sybl",
+    "sybl's",
+    "terraform",
+    "terraform's"
+  ],
+  "cSpell.enabledLanguageIds": [
+    "markdown",
+    "plaintext",
+    "restructuredtext",
+    "text"
+  ],
+  "workbench.colorTheme": "Material Theme Darker"
 }
