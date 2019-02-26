@@ -19,7 +19,3 @@ $ git clone https://github.com/andrewscwei/vscode-presets
 $ cd vscode-presets
 $ ./export.sh
 ```
-
-## License
-
-This software is released under the [MIT License](http://opensource.org/licenses/MIT).
