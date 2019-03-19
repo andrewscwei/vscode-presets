@@ -86,8 +86,10 @@
     "kubernetes",
     "mixins",
     "neighbourhood",
+    "netlify",
     "photoshop",
     "predefine",
+    "prerendering",
     "prismic",
     "repo",
     "repos",
@@ -97,7 +99,9 @@
     "sybl",
     "sybl's",
     "terraform",
-    "terraform's"
+    "terraform's",
+    "togglable",
+    "walkthrough"
   ],
   "cSpell.enabledLanguageIds": [
     "markdown",
