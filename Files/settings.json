@@ -38,7 +38,9 @@
     ".stylelintrc": "json",
     ".tslintrc": "json",
     "*.geojson": "json",
-    "*.strings": "swift"
+    "*.strings": "swift",
+    "*.liquid": "liquid",
+    ".env": "shellscript"
   },
   "javascript.implicitProjectConfig.experimentalDecorators": true,
   "explorer.confirmDragAndDrop": false,
@@ -74,40 +76,6 @@
   "gitlens.views.fileHistory.enabled": true,
   "gitlens.views.lineHistory.enabled": true,
   "git.autofetch": true,
-  "cSpell.userWords": [
-    "ansible",
-    "ansible's",
-    "backend",
-    "datacenter",
-    "davie",
-    "figma",
-    "gravatar",
-    "keychain",
-    "kubernetes",
-    "mixins",
-    "neighbourhood",
-    "netlify",
-    "photoshop",
-    "predefine",
-    "prerendering",
-    "prismic",
-    "repo",
-    "repos",
-    "roboto",
-    "stackdriver",
-    "submodule",
-    "sybl",
-    "sybl's",
-    "terraform",
-    "terraform's",
-    "togglable",
-    "walkthrough"
-  ],
-  "cSpell.enabledLanguageIds": [
-    "markdown",
-    "plaintext",
-    "restructuredtext",
-    "text"
-  ],
-  "workbench.colorTheme": "Material Theme Darker"
+  "workbench.colorTheme": "Material Theme Darker",
+  "editor.wordSeparators": "`~!@#$%^&*()=+[{]}\\|;:'\",.<>/?"
 }
