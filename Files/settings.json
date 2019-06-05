@@ -1,5 +1,6 @@
 {
   "gitlens.advanced.messages": {
+    "suppressLineUncommittedWarning": true,
     "suppressShowKeyBindingsNotice": true
   },
   "workbench.iconTheme": "vs-minimal",
@@ -20,10 +21,8 @@
     "**/.cache": true,
     "**/.data": true,
     "**/.DS_Store": true,
-    "**/.git": true,
     "**/.hg": true,
     "**/.svn": true,
-    "**/.tmp": true,
     "**/build/": true,
     "**/CVS": true,
     "**/dist/": true,
