@@ -109,7 +109,7 @@
     {
         "key": "f12",
         "command": "workbench.action.debug.start",
-        "when": "!inDebugMode"
+        "when": "!inDebugMode && editorLangId != 'markdown' && editorLangId != 'python' && editorLangId != 'svg' && editorLangId != 'html'"
     },
     {
         "key": "f5",
@@ -182,7 +182,7 @@
         "when": "editorHasDefinitionProvider && editorTextFocus && !isInEmbeddedEditor"
     },
     {
-        "key": "cmd+f4",
+        "key": "f4",
         "command": "editor.action.goToImplementation",
         "when": "editorHasImplementationProvider && editorTextFocus && !isInEmbeddedEditor"
     },
@@ -408,7 +408,7 @@
         "when": "textCompareEditorVisible"
     },
     {
-        "key": "f4",
+        "key": "cmd+f4",
         "command": "editor.action.revealDefinition",
         "when": "editorHasDefinitionProvider && editorTextFocus && !isInEmbeddedEditor"
     },
@@ -595,5 +595,54 @@
         "key": "alt+q",
         "command": "-rewrap.rewrapComment",
         "when": "editorTextFocus"
+    },
+    {
+        "key": "cmd+f12 cmd+",
+        "command": "markdown.extension.togglePreviewToSide",
+        "when": "!terminalFocus"
+    },
+    {
+        "key": "cmd+k v",
+        "command": "-markdown.extension.togglePreviewToSide",
+        "when": "!terminalFocus"
+    },
+    {
+        "key": "cmd+f12",
+        "command": "markdown.showPreviewToSide",
+        "when": "editorLangId == 'markdown'"
+    },
+    {
+        "key": "cmd+k v",
+        "command": "-markdown.showPreviewToSide",
+        "when": "editorLangId == 'markdown'"
+    },
+    {
+        "key": "f12",
+        "command": "svgviewer.open",
+        "when": "editorLangId == 'svg'"
+    },
+    {
+        "key": "shift+alt+s o",
+        "command": "-svgviewer.open"
+    },
+    {
+        "key": "f12",
+        "command": "html.showPreview",
+        "when": "editorLangId == 'html'"
+    },
+    {
+        "key": "shift+cmd+v",
+        "command": "-html.showPreview",
+        "when": "editorLangId == 'html'"
+    },
+    {
+        "key": "cmd+f12",
+        "command": "html.showPreviewToSide",
+        "when": "editorLangId == 'html'"
+    },
+    {
+        "key": "cmd+k v",
+        "command": "-html.showPreviewToSide",
+        "when": "editorLangId == 'html'"
     }
 ]

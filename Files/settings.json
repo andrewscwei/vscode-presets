@@ -70,11 +70,11 @@
     ]
   },
   "editor.minimap.enabled": true,
-  "files.useExperimentalFileWatcher": true,
   "workbench.statusBar.feedback.visible": false,
   "gitlens.views.fileHistory.enabled": true,
   "gitlens.views.lineHistory.enabled": true,
   "git.autofetch": true,
   "workbench.colorTheme": "Material Theme Darker",
-  "editor.wordSeparators": "`~!@#$%^&*()=+[{]}\\|;:'\",.<>/?"
+  "editor.wordSeparators": "`~!@#$%^&*()=+[{]}\\|;:'\",.<>/?-",
+  "javascript.validate.enable": false
 }
