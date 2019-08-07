@@ -75,5 +75,8 @@
   "git.autofetch": true,
   "workbench.colorTheme": "Material Theme Darker",
   "editor.wordSeparators": "`~!@#$%^&*()=+[{]}\\|;:'\",.<>/?-",
-  "javascript.validate.enable": false
+  "javascript.validate.enable": false,
+  "[html]": {
+    "editor.defaultFormatter": "HookyQR.beautify"
+  }
 }
