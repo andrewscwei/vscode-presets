@@ -6,6 +6,7 @@ DotJoshJohnson.xml
 eamodio.gitlens
 eg2.vscode-npm-script
 Equinusocio.vsc-material-theme
+erd0s.terraform-autocomplete
 esbenp.prettier-vscode
 HookyQR.beautify
 jock.svg
@@ -20,4 +21,5 @@ neilding.language-liquid
 robinbentley.sass-indented
 stkb.rewrap
 tht13.html-preview-vscode
+william-voyek.vscode-nginx
 yzhang.markdown-all-in-one
