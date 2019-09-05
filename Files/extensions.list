@@ -1,5 +1,6 @@
 christian-kohler.npm-intellisense
 CoenraadS.bracket-pair-colorizer
+cpylua.language-postcss
 cssho.vscode-svgviewer
 dbaeumer.vscode-eslint
 DotJoshJohnson.xml
@@ -20,6 +21,7 @@ msjsdiag.debugger-for-chrome
 neilding.language-liquid
 robinbentley.sass-indented
 stkb.rewrap
+streetsidesoftware.code-spell-checker
 tht13.html-preview-vscode
 william-voyek.vscode-nginx
 yzhang.markdown-all-in-one
