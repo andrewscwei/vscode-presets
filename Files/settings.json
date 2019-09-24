@@ -78,5 +78,32 @@
   "javascript.validate.enable": false,
   "[html]": {
     "editor.defaultFormatter": "HookyQR.beautify"
-  }
+  },
+  "cSpell.enabledLanguageIds": [
+    "asciidoc",
+    "c",
+    "cpp",
+    "csharp",
+    "css",
+    "git-commit",
+    "go",
+    "handlebars",
+    "haskell",
+    "jade",
+    "java",
+    "latex",
+    "less",
+    "markdown",
+    "php",
+    "plaintext",
+    "pug",
+    "python",
+    "restructuredtext",
+    "rust",
+    "scala",
+    "scss",
+    "text",
+    "yaml",
+    "yml"
+  ]
 }
