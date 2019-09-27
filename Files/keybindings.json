@@ -644,5 +644,15 @@
         "key": "cmd+k v",
         "command": "-html.showPreviewToSide",
         "when": "editorLangId == 'html'"
+    },
+    {
+        "key": "ctrl+s",
+        "command": "markdown.extension.editing.toggleStrikethrough",
+        "when": "editorTextFocus && !editorReadonly && editorLangId == 'markdown'"
+    },
+    {
+        "key": "alt+s",
+        "command": "-markdown.extension.editing.toggleStrikethrough",
+        "when": "editorTextFocus && !editorReadonly && !isMac && editorLangId == 'markdown'"
     }
 ]

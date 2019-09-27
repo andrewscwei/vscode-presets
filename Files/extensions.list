@@ -1,16 +1,13 @@
 christian-kohler.npm-intellisense
 CoenraadS.bracket-pair-colorizer
-cpylua.language-postcss
 cssho.vscode-svgviewer
 dbaeumer.vscode-eslint
 DotJoshJohnson.xml
 eamodio.gitlens
 eg2.vscode-npm-script
 Equinusocio.vsc-material-theme
-erd0s.terraform-autocomplete
 esbenp.prettier-vscode
 HookyQR.beautify
-jock.svg
 jpoissonnier.vscode-styled-components
 mauve.terraform
 ms-azuretools.vscode-docker
@@ -19,10 +16,8 @@ ms-vscode.Go
 ms-vscode.vscode-typescript-tslint-plugin
 ms-vscode.wordcount
 msjsdiag.debugger-for-chrome
-neilding.language-liquid
 robinbentley.sass-indented
 stkb.rewrap
-streetsidesoftware.code-spell-checker
 tht13.html-preview-vscode
 william-voyek.vscode-nginx
 yzhang.markdown-all-in-one
