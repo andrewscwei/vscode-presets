@@ -105,5 +105,8 @@
     "text",
     "yaml",
     "yml"
-  ]
+  ],
+  "[javascript]": {
+    "editor.defaultFormatter": "HookyQR.beautify"
+  }
 }
