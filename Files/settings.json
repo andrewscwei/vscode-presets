@@ -108,5 +108,5 @@
   "[javascript]": {
     "editor.defaultFormatter": "HookyQR.beautify"
   },
-  "workbench.colorTheme": "Community Material Theme Ocean"
+  "workbench.colorTheme": "Community Material Theme Darker"
 }
