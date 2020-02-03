@@ -255,7 +255,7 @@
         "when": "editorTextFocus && !editorReadonly"
     },
     {
-        "key": "shift+alt+f",
+        "key": "alt+f",
         "command": "editor.action.formatSelection",
         "when": "editorTextFocus && !editorReadonly"
     },

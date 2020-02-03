@@ -75,9 +75,6 @@
   "git.autofetch": true,
   "editor.wordSeparators": "`~!@#$%^&*()=+[{]}\\|;:'\",.<>/?-",
   "javascript.validate.enable": false,
-  "[html]": {
-    "editor.defaultFormatter": "HookyQR.beautify"
-  },
   "cSpell.enabledLanguageIds": [
     "asciidoc",
     "c",
@@ -105,8 +102,7 @@
     "yaml",
     "yml"
   ],
-  "[javascript]": {
-    "editor.defaultFormatter": "HookyQR.beautify"
-  },
-  "workbench.colorTheme": "Community Material Theme Darker"
+  "workbench.colorTheme": "Material Theme Darker",
+  "editor.dragAndDrop": false,
+  "eslint.format.enable": true
 }
