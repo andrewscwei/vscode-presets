@@ -37,7 +37,7 @@
     ".tslintrc": "json",
     "*.geojson": "json",
     "*.strings": "swift",
-    "*.liquid": "liquid",
+    "*.liquid": "html",
     ".env": "shellscript"
   },
   "javascript.implicitProjectConfig.experimentalDecorators": true,
@@ -68,7 +68,7 @@
       "**/.terraform/**/*"
     ]
   },
-  "editor.minimap.enabled": true,
+  "editor.minimap.enabled": false,
   "workbench.statusBar.feedback.visible": false,
   "gitlens.views.fileHistory.enabled": true,
   "gitlens.views.lineHistory.enabled": true,
@@ -104,5 +104,9 @@
   ],
   "workbench.colorTheme": "Material Theme Darker",
   "editor.dragAndDrop": false,
-  "eslint.format.enable": true
+  "eslint.format.enable": true,
+  "terraform.languageServer": {
+    "enabled": true,
+    "args": []
+  }
 }
