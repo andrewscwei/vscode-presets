@@ -28,7 +28,11 @@
     "**/dist/": true,
     "**/node_modules/": true,
     "**/www/": true,
-    "package-lock.json": true
+    "package-lock.json": true,
+    "**/.classpath": true,
+    "**/.project": true,
+    "**/.settings": true,
+    "**/.factorypath": true
   },
   "files.associations": {
     "*.env.*": "dotenv",
@@ -38,7 +42,10 @@
     "*.geojson": "json",
     "*.strings": "swift",
     "*.liquid": "html",
-    ".env": "shellscript"
+    ".env": "shellscript",
+    "Fastfile": "ruby",
+    "Appfile": "ruby",
+    "Matchfile": "ruby"
   },
   "javascript.implicitProjectConfig.experimentalDecorators": true,
   "explorer.confirmDragAndDrop": false,
@@ -108,5 +115,6 @@
   "terraform.languageServer": {
     "enabled": true,
     "args": []
-  }
+  },
+  "java.semanticHighlighting.enabled": true
 }
