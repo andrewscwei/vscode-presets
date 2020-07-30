@@ -113,8 +113,21 @@
   "editor.dragAndDrop": false,
   "eslint.format.enable": true,
   "terraform.languageServer": {
-    "enabled": true,
-    "args": []
+    "external": true,
+    "args": [
+      "serve"
+    ]
   },
-  "java.semanticHighlighting.enabled": true
+  "java.semanticHighlighting.enabled": true,
+  "cSpell.enableFiletypes": [
+    "swift"
+  ],
+  "cSpell.userWords": [
+    "Keychain",
+    "UUID",
+    "configurables",
+    "dealloc",
+    "lightbox",
+    "uncache"
+  ]
 }
