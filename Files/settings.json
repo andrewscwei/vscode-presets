@@ -109,7 +109,6 @@
     "yaml",
     "yml"
   ],
-  "workbench.colorTheme": "Material Theme Darker",
   "editor.dragAndDrop": false,
   "eslint.format.enable": true,
   "terraform.languageServer": {
@@ -118,7 +117,6 @@
       "serve"
     ]
   },
-  "java.semanticHighlighting.enabled": true,
   "cSpell.enableFiletypes": [
     "swift"
   ],
@@ -129,5 +127,16 @@
     "dealloc",
     "lightbox",
     "uncache"
-  ]
+  ],
+  "javascript.preferences.importModuleSpecifier": "relative",
+  "typescript.preferences.importModuleSpecifier": "relative",
+  "editor.quickSuggestions": {
+    "other": true,
+    "comments": false,
+    "strings": false
+  },
+  "eslint.codeAction.showDocumentation": {
+    "enable": true
+  },
+  "workbench.colorTheme": "Community Material Theme Darker"
 }

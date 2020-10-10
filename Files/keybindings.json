@@ -654,5 +654,14 @@
         "key": "alt+s",
         "command": "-markdown.extension.editing.toggleStrikethrough",
         "when": "editorTextFocus && !editorReadonly && !isMac && editorLangId == 'markdown'"
+    },
+    {
+        "key": "shift+alt+cmd+c",
+        "command": "-copyRelativeFilePath",
+        "when": "!editorFocus"
+    },
+    {
+        "key": "shift+alt+cmd+c",
+        "command": "workbench.scm.focus"
     }
 ]
