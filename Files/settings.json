@@ -138,5 +138,6 @@
   "eslint.codeAction.showDocumentation": {
     "enable": true
   },
-  "workbench.colorTheme": "Community Material Theme Darker"
+  "workbench.colorTheme": "Community Material Theme Ocean High Contrast",
+  "editor.wordWrapColumn": 120
 }
