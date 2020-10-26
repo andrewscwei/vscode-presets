@@ -75,7 +75,7 @@
       "**/.terraform/**/*"
     ]
   },
-  "editor.minimap.enabled": false,
+  "editor.minimap.enabled": true,
   "workbench.statusBar.feedback.visible": false,
   "gitlens.views.fileHistory.enabled": true,
   "gitlens.views.lineHistory.enabled": true,
