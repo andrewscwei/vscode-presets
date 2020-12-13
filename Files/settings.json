@@ -7,7 +7,7 @@
   "workbench.startupEditor": "newUntitledFile",
   "git.enableSmartCommit": true,
   "git.confirmSync": false,
-  "diffEditor.ignoreTrimWhitespace": true,
+  "diffEditor.ignoreTrimWhitespace": false,
   "editor.renderWhitespace": "boundary",
   "files.trimTrailingWhitespace": true,
   "editor.rulers": [
@@ -138,6 +138,6 @@
   "eslint.codeAction.showDocumentation": {
     "enable": true
   },
-  "workbench.colorTheme": "Community Material Theme Ocean High Contrast",
-  "editor.wordWrapColumn": 120
+  "editor.wordWrapColumn": 120,
+  "workbench.colorTheme": "Community Material Theme Darker"
 }
